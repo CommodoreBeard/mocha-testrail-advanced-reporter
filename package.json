@@ -2,8 +2,8 @@
   "name": "mocha-testrail-advanced-reporter",
   "version": "0.0.1",
   "description": "A mocha reporter that writes to testrail creating suites, tests and runs where necissary",
-  "main": "lib/testrail-advanced.js",
-  "directories": "./lib",
+  "main": "src/lib/testrail-advanced.js",
+  "directories": "./src/lib",
   "private": false,
   "keywords": [
     "mocha",
