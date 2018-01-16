@@ -1,9 +1,8 @@
 {
   "name": "mocha-testrail-advanced-reporter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A mocha reporter that writes to testrail creating suites, tests and runs where necissary",
-  "main": "src/lib/testrail-advanced.js",
-  "directories": "./src/lib",
+  "main": "lib/testrail-advanced.js",
   "private": false,
   "keywords": [
     "mocha",
@@ -26,7 +25,8 @@
   },
   "scripts": {},
   "dependencies": {
-    "mocha": "^4.1.0"
+    "mocha": "^4.1.0",
+    "testrail-api":"^1.2.0"
   },
   "peerDependencies": {
     "mocha": "^4"
