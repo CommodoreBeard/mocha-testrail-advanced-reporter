@@ -1,1 +1,1 @@
-module.exports = require("./dist/lib/mocha-testrail-advanced-reporter").MochaTestRailAdvancedReporter
+module.exports = require('./lib/testrail-advanced');
