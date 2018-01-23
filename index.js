@@ -1,1 +1,1 @@
-module.exports = require('./lib/testrail-advanced');
+module.exports = require('./lib/reporter');
