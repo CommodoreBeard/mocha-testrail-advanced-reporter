@@ -1,8 +1,8 @@
-# Testail Reporter for Mocha
-Another reporter for mocha that publishes to Testrail. However, this reporter will create suites, sections, cases, runs and results where neccissary, by matching strings from Mocha.
+# TestRail Reporter for Mocha
+Another reporter for mocha that publishes to TestRail. However, this reporter will create suites, sections, cases, runs and results where necessary, by matching strings from Mocha.
 
 ## Motivation
-I had a need to publish test results from Mocha in Testrail, I could not find a reporter that would match `test.name` from Mocha with `case.title` in Testrail and create one if needed, so out of frustration this reporter was born.
+I had a need to publish test results from Mocha in TestRail, I could not find a reporter that would match `test.name` from Mocha with `case.title` in TestRail and create one if needed, so out of frustration this reporter was born.
 
 ## Installation
 ```bash
@@ -10,7 +10,7 @@ $ npm install mocha-testrail-advanced-reporter --save-dev
 ```
 
 ## Usage
-Ensure that your testrail installation API is enabled and generate your API keys. See http://docs.gurock.com/
+Ensure that your TestRail installation API is enabled and generate your API keys. See http://docs.gurock.com/
 
 Run mocha with mocha-testrail-advanced-reporter:
 ```bash
@@ -44,14 +44,14 @@ Test Run: https://instance.testrail.net/index.php?/runs/view/1
 ```
 **Skipped tests will NOT be included in the results published to Testrail.**
 
-##Options
+## Options
 
-**domain**: string domain name of your Testrail instance (e.g. for a hosted instance instance.testrail.net)
+**domain**: string domain name of your TestRail instance (e.g. for a hosted instance instance.testrail.net)
 
-**username**: string user under which the test run will be created (e.g. jenkins or ci)
+**username**: string user under which the test run will be created (e.g. Jenkins o CI)
 
 **password**: string password or API token for user
 
-**projectId**: number projet number with which the tests are associated
+**projectId**: number project number with which the tests are associated
 
 **suiteName**: string suite name with which the tests are associated
