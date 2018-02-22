@@ -24,7 +24,7 @@
     "url": "https://github.com/CommodoreBeard/mocha-testrail-advanced-reporter/issues"
   },
   "scripts": {
-    "test": "nyc --reporter=lcov mocha --recursive && nyc report",
+    "test": "nyc --reporter=lcov mocha test/testrail-publisher.js && nyc report",
     "lint": "eslint .",
     "prettier": "prettier --single-quote --write \"{*.js,!(node*)**/*.js}\"",
     "commitmsg": "commitlint -e",
