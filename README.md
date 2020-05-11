@@ -55,3 +55,5 @@ Test Run: https://instance.testrail.net/index.php?/runs/view/1
 **projectId**: number project number with which the tests are associated
 
 **suiteName**: string suite name with which the tests are associated
+
+**autoCloseRun**: (boolean) whether to close the test run once the results have been submitted. Defaults to false.
