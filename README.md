@@ -1,4 +1,7 @@
+⚠️This project is no longer maintained⚠️
+
 # TestRail Reporter for Mocha
+
 Another reporter for mocha that publishes to TestRail. However, this reporter will create suites, sections, cases, runs and results where necessary, by matching strings from Mocha.
 
 ## Motivation
